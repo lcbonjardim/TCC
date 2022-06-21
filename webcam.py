@@ -39,7 +39,7 @@ while True:
         cv2.imshow('Webcam_facerecognition', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        q
 
 video_capture.release()
 cv2.destroyAllWindows()
